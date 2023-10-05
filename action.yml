@@ -1,0 +1,16 @@
+name: 'Gate-on-Score'
+description: 'Block or allow workflow based on API call'
+inputs:
+  gremlin_team_id:
+    description: 'Gremlin Team ID'
+    required: true
+  api_key:
+    description: 'API Key'
+    required: true
+  threshold:
+    description: 'Score Threshold'
+    required: true
+runs:
+  using: 'node20'
+  main: 'index.js'
+
