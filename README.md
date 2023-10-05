@@ -36,5 +36,5 @@ jobs:
         threshold: 50  # Replace 50 with your desired threshold
 
     - name: Continue with Workflow
-      run: echo "Continuing with workflow as score is above threshold.
-```"
+      run: echo "Continuing with workflow as score is above threshold."
+```
