@@ -22,5 +22,6 @@ jobs:
       with:
         gremlin_team_id: ${{ secrets.GREMLIN_TEAM_ID }}
         api_key: ${{ secrets.API_KEY }}
+        service_id: asdf # Replace 'asdf' with your desired service ID
         threshold: 50  # Replace 50 with your desired threshold
 ```

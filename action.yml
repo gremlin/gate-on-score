@@ -7,6 +7,9 @@ inputs:
   api_key:
     description: 'API Key'
     required: true
+  service_id:
+    description: 'Unique ID for the service to check'
+    required: true
   threshold:
     description: 'Score Threshold'
     required: true
